@@ -188,7 +188,7 @@ background-color: rgba(255, 255, 255, 0.95);
     padding:0;
     width: 70%;
     left:15%;
-    position:absolute;
+    /*position:absolute;*/
 }
 .highlightSection{color:#333; background:#fafafa; padding:18px 0; border-bottom: 1px solid #D1D1D1}
 .highlightSection h2{padding-top:0; margin-top:0; font-size:21px}
@@ -204,7 +204,7 @@ background-color: rgba(255, 255, 255, 0.95);
 .projectImg{max-width:140px}
 .clientSection{background:#fafafa; padding:18px 0; margin-bottom:20px; padding:18px }
 .footerTopSection{background:#f7f7f7; padding:18px 0; border-top: 1px solid #e7e7e7}
-.footerBottomSection{background:#212121; padding:18px 0; color:#fff}
+.footerBottomSection{background:#161515; padding:18px 0; color:#fff}
 
 #topcontrol:hover {color: #a2c753;}
 #topcontrol, #topcontrol:hover {
@@ -226,14 +226,14 @@ transition: all 0.3s ease-out;
 
 .navbar-nav.navbar-right:last-child 
 {
-    margin-right: 67px;
+    /*margin-right: 67px;*/
     margin-top: 34px; 
     margin-bottom: -18px;
 }
 .btn-brand{background-color: #ff4800; border-color: #ff4800;color:#fff}
 .btn-brand:hover, .btn-brand:focus, .btn-brand:active, .btn-brand.active, .open .dropdown-toggle.btn-brand {color: #fff; background-color: #F07341; border-color: #F07341;}
 
-.serviceBlock{ padding:38px 0; margin:18px 0}
+.serviceBlock{ /*padding:38px 0;*/ margin:18px 0}
 
 .services {padding:38px 0; margin:18px 0}
 .serviceBlock i {
