@@ -65,7 +65,7 @@
           .grayheader{background-color:#0099ff;background:#545555;color:#FFFFFF;text-shadow: rgba(0, 0, 0, 0.75) 0 -1px 0;border: 1px solid #474747;}
 
           .grayheader h3{text-shadow: 0px 2px 1px #161616;background: transparent;text-transform: uppercase;letter-spacing: 0.04em;line-height: 24px;font-size: 22px;display: inline-block;padding: 0 0 5px 0;}
-    
+           
     </style>
 </head>
 <body>
@@ -152,13 +152,13 @@
 				
 				
 				
-				<div class="da-slide">
-					<%--<h2><i>Find Our Events</i> <br> <i>Entertainment</i></h2>
-					<p><i>Awesome business logic</i> <br> <i>3 business success history</i></p>--%>
+				<%--<div class="da-slide">
+					<h2><i>Find Our Events</i> <br> <i>Entertainment</i></h2>
+					<p><i>Awesome business logic</i> <br> <i>3 business success history</i></p>
 					<div class="da-img">
-							<%--<iframe src="http://player.vimeo.com/video/41029575" width="100%" height="320" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen class="col-md-offset-4 col-md-6"></iframe>--%>
+							<%--<iframe src="http://player.vimeo.com/video/41029575" width="100%" height="320" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen class="col-md-offset-4 col-md-6"></iframe>
 					</div>
-				</div>
+				</div>--%>
                 
 
 				<nav class="da-arrows">
@@ -182,13 +182,20 @@
                        <div class="grayheader">
                         <h3>最新消息</h3>
                        </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
+                    <ul style="list-style:none;text-align:left;line-height:2em;margin-top:5px">
+                        <li><a href="http://www.lifeline.org.tw/activity.asp?ser_no=291">SOS 救救我叢書即日起歡迎各單位報名索取</a</li>
+                        <li><a href="http://www.lifeline.org.tw/activity.asp?ser_no=269">如何正確使用自殺防治防線</a></li>
+                    </ul>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                     <p style="text-align:right;">more....</p>                 
                 </div>
                 <div class="service span3" style="text-align:center;border: 1px solid #ddd;">
                     <div class="icon-awesome">
                         <img src="images/banner/involved.png" />
                     </div>
-                    <h4>Responsive Layout</h4>
+                    <h4>電話協談</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
                 </div>
                 <div class="service span3" style="text-align:center;border: 1px solid #ddd;">
@@ -196,7 +203,7 @@
                         <i class="icon-table"></i>
                         <img src="images/banner/involved.png" />
                     </div>
-                    <h4>Awesome Logos</h4>
+                    <h4>E-mail 協談</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
                 </div>
         </div>
@@ -207,7 +214,14 @@
                         <div class="grayheader">
                         <h3>電子報</h3>
                         </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
+                    <ul style="list-style:none;text-align:left;line-height:2em;margin-top:5px">
+                        <li><a href="http://www.sos.org.tw/admin/epaper_preview1.asp?epaper_no=20140">2014 第1期</a</li>
+                        <li><a href="http://www.sos.org.tw/admin/epaper_preview1.asp?epaper_no=201312">2013 第12期</a></li>
+                    </ul>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                     <p style="text-align:right;">more....</p>   
                 </div>
 
                 <div class="service span3" style="text-align:center;border: 1px solid #ddd;">
@@ -215,7 +229,7 @@
                      <i class="icon-magic"></i>
                         <img src="images/banner/involved.png" />
                     </div>
-                    <h4>Awesome Logos</h4>
+                    <h4>捐款方式</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
                 </div>
 
@@ -223,7 +237,7 @@
                     <div class="icon-awesome">
                         <img src="images/banner/involved.png" />
                     </div>
-                    <h4>Awesome Logos</h4>
+                    <h4>社會資源</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
                 </div>
             </div>
@@ -235,7 +249,7 @@
                      <i class="icon-magic"></i>
                         <img src="images/banner/involved.png" />
                     </div>
-                    <h4>Awesome Logos</h4>
+                    <h4>捐款方式</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
                 </div>
 
