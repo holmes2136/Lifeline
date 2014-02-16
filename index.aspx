@@ -62,7 +62,7 @@
           
           .icon-awesome img {width:20%;}
 
-          .grayheader{background-color:#0099ff;background:#545555;color:#FFFFFF;text-shadow: rgba(0, 0, 0, 0.75) 0 -1px 0;border: 1px solid #474747;}
+          .grayheader{background:#1ABC9C;color:#FFFFFF;}
 
           .grayheader h3{text-shadow: 0px 2px 1px #161616;background: transparent;text-transform: uppercase;letter-spacing: 0.04em;line-height: 24px;font-size: 22px;display: inline-block;padding: 0 0 5px 0;}
            
@@ -195,10 +195,11 @@
 		<div class="serviceBlock">
 		<div class="what-we-do container">
             <div class="row">
-                <div class="service span4" style="text-align:center;height:230px;border: 1px solid #ddd;">
+                <div class="service span4" style="text-align:center;height:230px;border: 1px solid #ddd;border-radius:6px;">
                        <%-- <img src="images/banner/involved.png" />--%>
                        <div class="grayheader">
-                        <h3>最新消息</h3>
+                       <%-- <h3>最新消息</h3>--%>
+                       <a href="#" class="btn btn-primary btn-block btn-large" style="color: #FFFFFF;height:50px;font-size:18px;">最新消息</a>
                        </div>
                     <ul style="list-style:none;text-align:left;line-height:2em;margin-top:5px;">
                         <li><img  src="images/news/1392556999_106209.ico" width="16" height="16" alt="" /><a href="http://www.lifeline.org.tw/activity.asp?ser_no=291">SOS 救救我叢書即日起歡迎各單位報名索取</a></li>
@@ -209,71 +210,82 @@
                     <p></p>
                      <p style="text-align:right;"><a href="#" class="btn btn-link">More...</a></p>                 
                 </div>
-                <div class="service span3" style="text-align:center;border: 1px solid #ddd;">
+                <div class="service span3" style="text-align:center;border: 1px solid #ddd;border-radius: 6px;">
                     <div class="icon-awesome">
-                        <img src="images/banner/involved.png" />
+                       <%-- <img src="images/banner/involved.png" />--%>
+                        <img src="images/right/1392585896_207301.ico" alt="" />
                     </div>
                     <h4>電話協談</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
+                    <a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>
                 </div>
-                <div class="service span3" style="text-align:center;border: 1px solid #ddd;">
+                <div class="service span3" style="text-align:center;border: 1px solid #ddd;border-radius: 6px;">
                     <div class="icon-awesome">
-                        <img src="images/banner/involved.png" />
+                        <img src="images/right/1392585908_207298.ico" />
+
                     </div>
                     <h4>E-mail 協談</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
+                    <a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>
                 </div>
         </div>
 
             <div class="row" style="margin-top:10px;">
-                 <div class="service span4" style="text-align:center;border: 1px solid #ddd;">
+                 <div class="service span4" style="text-align:center;border: 1px solid #ddd;border-radius: 6px;">
                         <%--<img src="images/banner/involved.png" />--%>
                         <div class="grayheader">
-                        <h3>電子報</h3>
+                       <%-- <h3>電子報</h3>--%>
+                       <a href="#" class="btn btn-primary btn-block btn-large" style="color: #FFFFFF;height:50px;font-size:18px;">電子報</a>
                         </div>
                     <ul style="list-style:none;text-align:left;line-height:2em;margin-top:5px">
-                        <li><img src="images/news/1392553461_18844.ico" width="16" height="16" alt="" /><a href="http://www.sos.org.tw/admin/epaper_preview1.asp?epaper_no=20140">2014 第1期</a></li>
-                        <li><img src="images/news/1392553461_18844.ico" width="16" height="16" alt="" /><a href="http://www.sos.org.tw/admin/epaper_preview1.asp?epaper_no=201312">2013 第12期</a></li>
+                        <li><img src="images/news/1392556999_106209.ico" width="16" height="16" alt="" /><a href="http://www.sos.org.tw/admin/epaper_preview1.asp?epaper_no=20140">2014 第1期</a></li>
+                        <li><img src="images/news/1392556999_106209.ico" width="16" height="16" alt="" /><a href="http://www.sos.org.tw/admin/epaper_preview1.asp?epaper_no=201312">2013 第12期</a></li>
                     </ul>
+                    <p></p>
+                    <p></p>
                     <p></p>
                     <p></p>
                     <p></p>
                      <p  style="text-align:right;"><a href="#">More...</a></p>   
                 </div>
 
-                <div class="service span3" style="text-align:center;border: 1px solid #ddd;">
+                <div class="service span3" style="text-align:center;border: 1px solid #ddd;border-radius: 6px;">
                     <div class="icon-awesome">
-                        <img src="images/banner/involved.png" />
+                        <img src="images/right/1392585890_207308.ico" alt="" />
                     </div>
                     <h4>捐款方式</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
+                    <a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>
                 </div>
 
-                <div class="service span3" style="text-align:center;border: 1px solid #ddd;">
+                <div class="service span3" style="text-align:center;border: 1px solid #ddd;border-radius: 6px;">
                     <div class="icon-awesome">
-                        <img src="images/banner/involved.png" />
+                        <img src="images/right/1392585832_207326.ico" alt="" />
                     </div>
                     <h4>社會資源</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
+                    <a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>
                 </div>
             </div>
 
             <div class="row" style="margin-top:10px">
                 
-                <div class="service span3 offset4" style="text-align:center;border: 1px solid #ddd;">
+                <div class="service span3 offset4" style="text-align:center;border: 1px solid #ddd;border-radius: 6px;">
                     <div class="icon-awesome">
-                        <img src="images/banner/involved.png" />
+                         <img src="images/right/1392585818_207318.ico" alt="" />
                     </div>
                     <h4>捐款方式</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
+                    <a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>
                 </div>
 
-                <div class="service span3" style="text-align:center;border: 1px solid #ddd;">
+                <div class="service span3" style="text-align:center;border: 1px solid #ddd;border-radius: 6px;">
                     <div class="icon-awesome">
-                        <img src="images/banner/involved.png" />
+                       <img src="images/right/1392585939_183346.ico" alt="" />
                     </div>
                     <h4>Awesome Logos</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
+                    <a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>
                 </div>
 
             </div>
