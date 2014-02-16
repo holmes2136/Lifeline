@@ -66,6 +66,16 @@
 
           .grayheader h3{text-shadow: 0px 2px 1px #161616;background: transparent;text-transform: uppercase;letter-spacing: 0.04em;line-height: 24px;font-size: 22px;display: inline-block;padding: 0 0 5px 0;}
            
+          .navtigate {
+            width: 22px;
+            height: 22px;
+            background-position: -50px -50px;
+            margin: 5px 0 0 0;
+            background-image: url(images/sprite2.png);
+            background-repeat: no-repeat;
+            background-color: transparent;
+           }
+
     </style>
 </head>
 <body>
@@ -183,13 +193,13 @@
                         <h3>最新消息</h3>
                        </div>
                     <ul style="list-style:none;text-align:left;line-height:2em;margin-top:5px">
-                        <li><a href="http://www.lifeline.org.tw/activity.asp?ser_no=291">SOS 救救我叢書即日起歡迎各單位報名索取</a</li>
-                        <li><a href="http://www.lifeline.org.tw/activity.asp?ser_no=269">如何正確使用自殺防治防線</a></li>
+                        <li><img src="images/news/1392553374_199496.ico" width="16" height="16" alt="" /><a href="http://www.lifeline.org.tw/activity.asp?ser_no=291">SOS 救救我叢書即日起歡迎各單位報名索取</a></li>
+                        <li><img  src="images/news/1392553374_199496.ico" width="16" height="16"  alt="" /><a href="http://www.lifeline.org.tw/activity.asp?ser_no=269">如何正確使用自殺防治防線</a></li>
                     </ul>
                     <p></p>
                     <p></p>
                     <p></p>
-                     <p style="text-align:right;">more....</p>                 
+                     <p style="text-align:right;"><a href="#" class="btn btn-link">More...</a></p>                 
                 </div>
                 <div class="service span3" style="text-align:center;border: 1px solid #ddd;">
                     <div class="icon-awesome">
@@ -214,13 +224,13 @@
                         <h3>電子報</h3>
                         </div>
                     <ul style="list-style:none;text-align:left;line-height:2em;margin-top:5px">
-                        <li><a href="http://www.sos.org.tw/admin/epaper_preview1.asp?epaper_no=20140">2014 第1期</a</li>
-                        <li><a href="http://www.sos.org.tw/admin/epaper_preview1.asp?epaper_no=201312">2013 第12期</a></li>
+                        <li><img src="images/news/1392553461_18844.ico" width="16" height="16" alt="" /><a href="http://www.sos.org.tw/admin/epaper_preview1.asp?epaper_no=20140">2014 第1期</a></li>
+                        <li><img src="images/news/1392553461_18844.ico" width="16" height="16" alt="" /><a href="http://www.sos.org.tw/admin/epaper_preview1.asp?epaper_no=201312">2013 第12期</a></li>
                     </ul>
                     <p></p>
                     <p></p>
                     <p></p>
-                     <p style="text-align:right;">more....</p>   
+                     <p  style="text-align:right;"><a href="#">More...</a></p>   
                 </div>
 
                 <div class="service span3" style="text-align:center;border: 1px solid #ddd;">
