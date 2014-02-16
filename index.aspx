@@ -7,8 +7,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="生命線,自殺防治">
+    <meta name="author" content="Holmes">
     <title>生命線</title>
 
       <!-- Bootstrap core CSS -->
@@ -200,7 +200,6 @@
                 </div>
                 <div class="service span3" style="text-align:center;border: 1px solid #ddd;">
                     <div class="icon-awesome">
-                        <i class="icon-table"></i>
                         <img src="images/banner/involved.png" />
                     </div>
                     <h4>E-mail 協談</h4>
@@ -226,7 +225,6 @@
 
                 <div class="service span3" style="text-align:center;border: 1px solid #ddd;">
                     <div class="icon-awesome">
-                     <i class="icon-magic"></i>
                         <img src="images/banner/involved.png" />
                     </div>
                     <h4>捐款方式</h4>
@@ -246,7 +244,6 @@
                 
                 <div class="service span3 offset4" style="text-align:center;border: 1px solid #ddd;">
                     <div class="icon-awesome">
-                     <i class="icon-magic"></i>
                         <img src="images/banner/involved.png" />
                     </div>
                     <h4>捐款方式</h4>
@@ -255,7 +252,6 @@
 
                 <div class="service span3" style="text-align:center;border: 1px solid #ddd;">
                     <div class="icon-awesome">
-                     <i class="icon-magic"></i>
                         <img src="images/banner/involved.png" />
                     </div>
                     <h4>Awesome Logos</h4>

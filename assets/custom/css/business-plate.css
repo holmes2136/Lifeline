@@ -258,7 +258,8 @@ border-left: 5px solid #ff4800;
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 480px) {
 .topHeaderSection {padding: 0;}
-.da-slide .da-img{display:none}
+/*.da-slide .da-img{display:none}*/
+.da-slide .da-img{display:block}
 .da-slide h2 {top: 18px;}
 .da-slide p {top: 255px;}
 .navbar-nav.navbar-right:last-child {margin-top: 0px;margin-bottom: 0px;}
