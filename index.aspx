@@ -143,7 +143,7 @@
 				<div class="da-slide">
 					<%--<h2><i>Clean</i> <br> <i>Responsive </i> <br> <i>HTML5 & CSS3</i></h2>
 					<p><i>Professional look</i> <br> <i>Compitable in different device</i> <br> <i>Mordern technology in use</i></p>--%>
-					<div class="da-img"><img  class="myimg" src="images/banner/banner1.jpg" alt="" /></div>
+					<div class="da-img"><img  class="myimg" src="images/banner/map-in-grass2.jpg" alt="" /></div>
                     <div class="carousel-caption">
                         <h4 style="text-align:right;">聯絡電話:(02)2502-4242</h4>
                         <p style="padding-top:20px;"></p>
@@ -153,14 +153,22 @@
 				<div class="da-slide">
 				<%--	<h2><i>Clean</i> <br> <i>Responsive </i> <br> <i>HTML5 & CSS3</i></h2>
 					<p><i>Professional look</i> <br> <i>Compitable in different device</i> <br> <i>Mordern technology in use</i></p>--%>
-					<div class="da-img"><img  class="myimg" src="images/banner/banner2.jpg" alt="" /></div>
+					<div class="da-img"><img  class="myimg" src="images/banner/pic_1.jpg" alt="" /></div>
                      <div class="carousel-caption">
                         <h4 style="text-align:right;">聯絡電話:(02)2502-4242</h4>
                         <p style="padding-top:20px;"></p>
                     </div>
 				</div>
 				
-				
+				<div class="da-slide">
+				<%--	<h2><i>Clean</i> <br> <i>Responsive </i> <br> <i>HTML5 & CSS3</i></h2>
+					<p><i>Professional look</i> <br> <i>Compitable in different device</i> <br> <i>Mordern technology in use</i></p>--%>
+					<div class="da-img"><img  class="myimg" src="images/banner/little-girl-blowing-wind-mill.jpg" alt="" /></div>
+                     <div class="carousel-caption">
+                        <h4 style="text-align:right;">聯絡電話:(02)2502-4242</h4>
+                        <p style="padding-top:20px;"></p>
+                    </div>
+				</div>
 				
 				<%--<div class="da-slide">
 					<h2><i>Find Our Events</i> <br> <i>Entertainment</i></h2>
@@ -192,9 +200,9 @@
                        <div class="grayheader">
                         <h3>最新消息</h3>
                        </div>
-                    <ul style="list-style:none;text-align:left;line-height:2em;margin-top:5px">
-                        <li><img src="images/news/1392553374_199496.ico" width="16" height="16" alt="" /><a href="http://www.lifeline.org.tw/activity.asp?ser_no=291">SOS 救救我叢書即日起歡迎各單位報名索取</a></li>
-                        <li><img  src="images/news/1392553374_199496.ico" width="16" height="16"  alt="" /><a href="http://www.lifeline.org.tw/activity.asp?ser_no=269">如何正確使用自殺防治防線</a></li>
+                    <ul style="list-style:none;text-align:left;line-height:2em;margin-top:5px;">
+                        <li><img  src="images/news/1392556999_106209.ico" width="16" height="16" alt="" /><a href="http://www.lifeline.org.tw/activity.asp?ser_no=291">SOS 救救我叢書即日起歡迎各單位報名索取</a></li>
+                        <li><img  src="images/news/1392556999_106209.ico" width="16" height="16"  alt="" /><a href="http://www.lifeline.org.tw/activity.asp?ser_no=269">如何正確使用自殺防治防線</a></li>
                     </ul>
                     <p></p>
                     <p></p>
