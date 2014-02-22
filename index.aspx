@@ -16,9 +16,8 @@
     <link href="assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="assets/custom/css/style.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="themes/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
+  
+ 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -26,17 +25,19 @@
     <![endif]-->
 
 	<!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="assets/custom/css/flexslider.css" type="text/css" media="screen">    	
     <link rel="stylesheet" href="assets/custom/css/parallax-slider.css" type="text/css">
-    <link rel="stylesheet" href="assets/font-awesome-4.0.3/css/font-awesome.min.css" type="text/css">
+
+   <%-- <link rel="stylesheet" href="assets/custom/css/flexslider.css" type="text/css" media="screen">    --%>	
+   <%--<link rel="stylesheet" href="assets/font-awesome-4.0.3/css/font-awesome.min.css" type="text/css">--%>
     
     <!-- Custom styles for this template -->
-	
     <link href="assets/custom/css/business-plate.css" rel="stylesheet">
     <%--<link rel="shortcut icon" href="assets/custom/ico/favicon.ico">--%>
 
-    <style type="text/css">
-        
+   <%-- <style type="text/css">
+         
+      
+         
         .font_8 {
             font: normal normal normal 13px/1.4em arial, 'ｍｓ ｐゴシック', 'ms pgothic', 돋움, dotum, helvetica, sans-serif;
             color: rgb(22, 21, 21);
@@ -60,24 +61,76 @@
           
           .verticalHr {border-left:1px dotted #FFFFFF;height:50px;}
           
-          .icon-awesome img {width:20%;}
+          .icon-awesome img {width:70%;height:101px;}
 
-          .grayheader{background:#1ABC9C;color:#FFFFFF;}
-
-          .grayheader h3{text-shadow: 0px 2px 1px #161616;background: transparent;text-transform: uppercase;letter-spacing: 0.04em;line-height: 24px;font-size: 22px;display: inline-block;padding: 0 0 5px 0;}
+      
            
-          .navtigate {
-            width: 22px;
-            height: 22px;
-            background-position: -50px -50px;
-            margin: 5px 0 0 0;
-            background-image: url(images/sprite2.png);
-            background-repeat: no-repeat;
-            background-color: transparent;
+        
+           .yellowheader
+           {    font-weight:bold;
+                padding-top: 5px;
+                margin-top:10px;
+                font-size:18px;
+                color:Black;
+                height:40px;
+                border-radius: 0px;
+                position: relative;
+                top: 0px;
+                bottom: 0px;
+                left: 0px;
+                right: 0px;
+                background-color: rgb(235, 158, 21);
+                transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+                -webkit-transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+                border: 0px solid rgb(22, 21, 21);
+                cursor: pointer;
            }
+           
+          
+          .lefttriangle {
+                width: 0;
+                height: 0;
+                border-top: 10px solid rgb(115, 112, 112);; 
+                border-right: 10px solid transparent;
+                float:right;
+           }
+           
+            .lefttoptriangle {
+                width: 0;
+                height: 0;
+                border-top: 15px solid rgb(115, 112, 112);; 
+                border-left: 15px solid transparent;
+                float:left;
+                position:relative;
+                left:30px;
+                text-align:center
+            }
+            
+            .ultext
+            {
+                color:#473f39;
+                font-weight:normal;
+                letter-spacing:1pt;
+                word-spacing:3pt;
+                font-size:10px;
+                text-align:left;
+                font-family:times new roman, times, serif;
+                line-height:1;
+                margin:0px;
+                padding:0px;    
+            }
+            .ultext2{font-weight:normal; color:#473f39;letter-spacing:1pt;word-spacing:3pt;font-size:10px;text-align:left;font-family:times new roman, times, serif;line-height:1; margin:0px;padding:0px;}
+            
+            .yellowheader a{color:#473f39;letter-spacing:1pt;font-size:18px;font-family:Times New Roman;font-weight:bold;height:40px;}
+    
+    </style>--%>
 
-    </style>
+   
+
+
 </head>
+
+
 <body>
     <form id="form1" runat="server">
     <!-- top  -->    
@@ -143,7 +196,7 @@
 				<div class="da-slide">
 					<%--<h2><i>Clean</i> <br> <i>Responsive </i> <br> <i>HTML5 & CSS3</i></h2>
 					<p><i>Professional look</i> <br> <i>Compitable in different device</i> <br> <i>Mordern technology in use</i></p>--%>
-					<div class="da-img"><img  class="myimg" src="images/banner/map-in-grass2.jpg" alt="" /></div>
+					<div class="da-img"><img  class="myimg" src="images/banner/update3.jpg" alt="" /></div>
                     <div class="carousel-caption">
                         <h4 style="text-align:right;">聯絡電話:(02)2502-4242</h4>
                         <p style="padding-top:20px;"></p>
@@ -153,7 +206,7 @@
 				<div class="da-slide">
 				<%--	<h2><i>Clean</i> <br> <i>Responsive </i> <br> <i>HTML5 & CSS3</i></h2>
 					<p><i>Professional look</i> <br> <i>Compitable in different device</i> <br> <i>Mordern technology in use</i></p>--%>
-					<div class="da-img"><img  class="myimg" src="images/banner/pic_1.jpg" alt="" /></div>
+					<div class="da-img"><img  class="myimg" src="images/banner/update2.jpg" alt="" /></div>
                      <div class="carousel-caption">
                         <h4 style="text-align:right;">聯絡電話:(02)2502-4242</h4>
                         <p style="padding-top:20px;"></p>
@@ -163,13 +216,23 @@
 				<div class="da-slide">
 				<%--	<h2><i>Clean</i> <br> <i>Responsive </i> <br> <i>HTML5 & CSS3</i></h2>
 					<p><i>Professional look</i> <br> <i>Compitable in different device</i> <br> <i>Mordern technology in use</i></p>--%>
-					<div class="da-img"><img  class="myimg" src="images/banner/little-girl-blowing-wind-mill.jpg" alt="" /></div>
+					<div class="da-img"><img  class="myimg" src="images/banner/update1.jpg" alt="" /></div>
                      <div class="carousel-caption">
                         <h4 style="text-align:right;">聯絡電話:(02)2502-4242</h4>
                         <p style="padding-top:20px;"></p>
                     </div>
 				</div>
 				
+                	<div class="da-slide">
+				<%--	<h2><i>Clean</i> <br> <i>Responsive </i> <br> <i>HTML5 & CSS3</i></h2>
+					<p><i>Professional look</i> <br> <i>Compitable in different device</i> <br> <i>Mordern technology in use</i></p>--%>
+					<div class="da-img"><img  class="myimg" src="images/banner/update4.jpg" alt="" /></div>
+                     <div class="carousel-caption">
+                        <h4 style="text-align:right;">聯絡電話:(02)2502-4242</h4>
+                        <p style="padding-top:20px;"></p>
+                    </div>
+				</div>
+
 				<%--<div class="da-slide">
 					<h2><i>Find Our Events</i> <br> <i>Entertainment</i></h2>
 					<p><i>Awesome business logic</i> <br> <i>3 business success history</i></p>
@@ -193,102 +256,133 @@
 
       <!-- bodySection -->
 		<div class="serviceBlock">
-		<div class="what-we-do container">
+		<div class="what-we-do container"  style="background:#FFFFFF;padding-top:20px;padding-left:0px;width:70%;">
             <div class="row">
-                <div class="service span4" style="text-align:center;height:230px;border: 1px solid #ddd;border-radius:6px;">
-                       <%-- <img src="images/banner/involved.png" />--%>
-                       <div class="grayheader">
-                       <%-- <h3>最新消息</h3>--%>
-                       <a href="#" class="btn btn-primary btn-block btn-large" style="color: #FFFFFF;height:50px;font-size:18px;">最新消息</a>
-                       </div>
-                    <ul style="list-style:none;text-align:left;line-height:2em;margin-top:5px;">
-                        <li><img  src="images/news/1392556999_106209.ico" width="16" height="16" alt="" /><a href="http://www.lifeline.org.tw/activity.asp?ser_no=291">SOS 救救我叢書即日起歡迎各單位報名索取</a></li>
-                        <li><img  src="images/news/1392556999_106209.ico" width="16" height="16"  alt="" /><a href="http://www.lifeline.org.tw/activity.asp?ser_no=269">如何正確使用自殺防治防線</a></li>
+               
+                <div class="service span4" style="text-align:center;color:#FFFFFF;">
+               
+                    <div class="row">
+                            <div class="span1" style="background:rgb(235, 158, 21);width:8%;float:left;margin-left:0px;">
+                         
+                            <h4 style="line-height:40px">最新消息</h4>
+                      
+                            </div>
+                            <div  class="span3" style="float:right;width:84%;">
+                  
+                    <ul  style="list-style:none;text-align:left;line-height:2em;margin-top:30px;padding-left:5px;">
+                     <li><img  src="images/news/1392556999_106209.ico" width="16" height="16" alt="" />
+                        <a   class="ultext" href="http://www.lifeline.org.tw/activity.asp?ser_no=291">SOS 救救我叢書即日起歡迎各單位報名索取</a></li>
+                        <li><img  src="images/news/1392556999_106209.ico" width="16" height="16"  alt="" />
+                        <a   class="ultext" href="http://www.lifeline.org.tw/activity.asp?ser_no=269">如何正確使用自殺防治防線</a></li>
+                         <li><img  src="images/news/1392556999_106209.ico" width="16" height="16"  alt="" />
+                        <a   class="ultext" href="http://www.lifeline.org.tw/activity.asp?ser_no=269">如何正確使用自殺防治防線</a></li>
+                         <li><img  src="images/news/1392556999_106209.ico" width="16" height="16"  alt="" />
+                        <a   class="ultext" href="http://www.lifeline.org.tw/activity.asp?ser_no=269">如何正確使用自殺防治防線</a></li>
                     </ul>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                     <p style="text-align:right;"><a href="#" class="btn btn-link">More...</a></p>                 
+                    </div>
+                   </div>                  
                 </div>
-                <div class="service span3" style="text-align:center;border: 1px solid #ddd;border-radius: 6px;">
+
+                <div class="service span1" style="text-align:center;">
                     <div class="icon-awesome">
                        <%-- <img src="images/banner/involved.png" />--%>
-                        <img src="images/right/1392585896_207301.ico" alt="" />
+                        <img src="images/right/dangerline.jpg" alt="" />
+                       
                     </div>
-                    <h4>電話協談</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
-                    <a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>
+                    <div  class="yellowheader"> 
+                        <a href="//www.yahoo.com.tw">自殺熱線</a>
+                    </div>
+                    <div class="lefttriangle"></div>
+                    
+                    <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>--%>
+                    <%--<a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>--%>
                 </div>
-                <div class="service span3" style="text-align:center;border: 1px solid #ddd;border-radius: 6px;">
-                    <div class="icon-awesome">
-                        <img src="images/right/1392585908_207298.ico" />
+                <div class="service span1" style="text-align:center;">
+                    <div class="icon-awesome" width="64px">
+                        <img src="images/right/sos.jpg" />
+                      
+                    </div>
+                    <div  class="yellowheader"><a href="http://www.sos.org.tw/index.asp">sos救命網</a></div>
+                    <div class="lefttriangle"></div>
+                    <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>--%>
+                   <%-- <a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>--%>
+                </div>
 
+                <div class="service span1" style="text-align:center;">
+                    <div class="icon-awesome">
+                       <img src="images/right/elearing.jpg" alt="" />
                     </div>
-                    <h4>E-mail 協談</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
-                    <a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>
+                    <div  class="yellowheader"><a href="#">數位學習網</a></div>
+                    <div class="lefttriangle"></div>
+                    
+                    <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>--%>
+                   <%-- <a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>--%>
                 </div>
+
         </div>
 
             <div class="row" style="margin-top:10px;">
-                 <div class="service span4" style="text-align:center;border: 1px solid #ddd;border-radius: 6px;">
-                        <%--<img src="images/banner/involved.png" />--%>
-                        <div class="grayheader">
-                       <%-- <h3>電子報</h3>--%>
-                       <a href="#" class="btn btn-primary btn-block btn-large" style="color: #FFFFFF;height:50px;font-size:18px;">電子報</a>
-                        </div>
-                    <ul style="list-style:none;text-align:left;line-height:2em;margin-top:5px">
-                        <li><img src="images/news/1392556999_106209.ico" width="16" height="16" alt="" /><a href="http://www.sos.org.tw/admin/epaper_preview1.asp?epaper_no=20140">2014 第1期</a></li>
-                        <li><img src="images/news/1392556999_106209.ico" width="16" height="16" alt="" /><a href="http://www.sos.org.tw/admin/epaper_preview1.asp?epaper_no=201312">2013 第12期</a></li>
+                 <div class="service span4" style="text-align:center;height:160px;">
+                     <div class="row">
+                            <div class="span1" style="background:rgb(235, 158, 21);width:8%;float:left;margin-left:0px;">
+                         
+                            <h4 style="line-height:33px">電子報</h4>
+                      
+                            </div>
+                            <div  class="span3" style="float:right;width:84%;">
+                                
+                                 <ul  style="list-style:none;text-align:left;margin-top:30px;padding-left:5px;">
+                                    <li><img src="images/news/1392556999_106209.ico" width="16" height="16" alt="" />
+                                        <a class="ultext2" href="http://www.sos.org.tw/admin/epaper_preview1.asp?epaper_no=20140">2014 第1期</a>
+                                    </li>
+                                    <li><img src="images/news/1392556999_106209.ico" width="16" height="16" alt="" />
+                                        <a  class="ultext2" href="http://www.sos.org.tw/admin/epaper_preview1.asp?epaper_no=201312">2013 第12期</a>
+                                    </li>
                     </ul>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                     <p  style="text-align:right;"><a href="#">More...</a></p>   
+
+                            </div>
+                    </div>
+                   
                 </div>
 
-                <div class="service span3" style="text-align:center;border: 1px solid #ddd;border-radius: 6px;">
+                <div class="service span1" style="text-align:center;">
                     <div class="icon-awesome">
-                        <img src="images/right/1392585890_207308.ico" alt="" />
+                        <img src="images/right/email.jpg" alt="" />
                     </div>
-                    <h4>捐款方式</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
-                    <a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>
+                    <div  class="yellowheader"><a href="//www.lifeline.org.tw/consult.asp">email輔導</a></div>
+                    <div class="lefttriangle"></div>
+                    
+                    <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>--%>
+                    <%--<a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>--%>
                 </div>
 
-                <div class="service span3" style="text-align:center;border: 1px solid #ddd;border-radius: 6px;">
+                <div class="service span1" style="text-align:center;">
                     <div class="icon-awesome">
-                        <img src="images/right/1392585832_207326.ico" alt="" />
+                        <img src="images/right/Consulting.jpg" alt="" />
                     </div>
-                    <h4>社會資源</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
-                    <a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>
+                     <div  class="yellowheader"><a href="#">心理諮商所</a></div>
+                    <div class="lefttriangle"></div>
+                    
+                    <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>--%>
+                    <%--<a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>--%>
                 </div>
+
+                 <div class="service span1" style="text-align:center;">
+                 
+                    <div class="icon-awesome">
+                         <img src="images/right/donate.jpg" alt="" />
+                    </div>
+                    <div  class="yellowheader"><a href="//www.lifeline.org.tw/donate.asp">愛心捐款</a></div>
+                    <div class="lefttriangle"></div>
+                  
+                    <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>--%>
+                    <%--<a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>--%>
+                </div>
+
+                  
             </div>
 
-            <div class="row" style="margin-top:10px">
-                
-                <div class="service span3 offset4" style="text-align:center;border: 1px solid #ddd;border-radius: 6px;">
-                    <div class="icon-awesome">
-                         <img src="images/right/1392585818_207318.ico" alt="" />
-                    </div>
-                    <h4>捐款方式</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
-                    <a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>
-                </div>
-
-                <div class="service span3" style="text-align:center;border: 1px solid #ddd;border-radius: 6px;">
-                    <div class="icon-awesome">
-                       <img src="images/right/1392585939_183346.ico" alt="" />
-                    </div>
-                    <h4>Awesome Logos</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
-                    <a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>
-                </div>
-
-            </div>
+            
 
 
         <%--<div class="row">
@@ -378,7 +472,7 @@
 
 <!-- JS Implementing Plugins -->           
 <script type="text/javascript" src="assets/custom/js/jquery.flexslider-min.js"></script>
-<script type="text/javascript" src="assets/custom/js/modernizr.js"></script>
+<%--<script type="text/javascript" src="assets/custom/js/modernizr.js"></script>--%>
 <script type="text/javascript" src="assets/custom/js/jquery.cslider.js"></script> 
 <script type="text/javascript" src="assets/custom/js/back-to-top.js"></script>
 <script type="text/javascript" src="assets/custom/js/jquery.sticky.js"></script>
