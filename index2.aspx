@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index2.aspx.cs" Inherits="index" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -12,8 +12,10 @@
     <title>生命線</title>
 
       <!-- Bootstrap core CSS -->
-    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <%--<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">--%>
+    <%--<link href="assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">--%>
+    <link href="assets/bootstrap2/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/bootstrap2/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="assets/custom/css/style.css" rel="stylesheet">
 
   
@@ -59,41 +61,54 @@
 
 
      <!-- topHeaderSection -->	
-    <div class="topHeaderSection">		
-    <div class="header">			
-		<div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html"><img src="assets/custom/img/logo.png" alt="生命線" /></a>
+   <div class="navbar-wrapper">
+        <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+        <div class="container">
+            <div>
+            <a  href="#">
+                <img src="assets/custom/img/logo.png" alt="生命線">
+            </a>
+            </div>
+            <div class="navbar navbar-inverse">
+                
+                <div class="navbar-inner">
+                    <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="active"><a href="#">Home</a></li>
+                             <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">關於我們 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">我們的家族</a></li>
+                                    <li class="divider"></li>
+                                    <li class="nav-header">Nav header</li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#about">個案統計分析</a></li>
+                            <li><a href="#contact">網站導覽</a></li>
+                            <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+                           
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+                <!-- /.navbar-inner -->
+            </div>
+            <!-- /.navbar -->
+
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">關於我們 <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li><a href="#about">我們的家族</a></li>
-            <li><a href="#about">個案統計分析</a></li>
-            <li><a href="#contact">捐款徵信</a></li>
-            <li><a href="#contact">網站導覽</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-	</div>
-	</div>
+        <!-- /.container -->
+    </div>
+    <!-- /.navbar-wrapper -->
 
     <center>
     <!-- bannerSection -->
@@ -113,7 +128,7 @@
 				<div class="da-slide">
 				<%--	<h2><i>Clean</i> <br> <i>Responsive </i> <br> <i>HTML5 & CSS3</i></h2>
 					<p><i>Professional look</i> <br> <i>Compitable in different device</i> <br> <i>Mordern technology in use</i></p>--%>
-					<div class="da-img"><img  class="myimg" src="images/banner/update2.jpg" alt="" /></div>
+					<div class="da-img"><img  class="myimg" src="images/banner/29320_400478459633_5101682_n.jpg" alt="" /></div>
                      <div class="carousel-caption">
                         <h4 style="text-align:right;">聯絡電話:(02)2502-4242</h4>
                         <p style="padding-top:20px;"></p>
@@ -133,7 +148,7 @@
                 	<div class="da-slide">
 				<%--	<h2><i>Clean</i> <br> <i>Responsive </i> <br> <i>HTML5 & CSS3</i></h2>
 					<p><i>Professional look</i> <br> <i>Compitable in different device</i> <br> <i>Mordern technology in use</i></p>--%>
-					<div class="da-img"><img  class="myimg" src="images/banner/update4.jpg" alt="" /></div>
+					<div class="da-img"><img  class="myimg" src="images/banner/269940_241547762522713_7132815_n.jpg" alt="" /></div>
                      <div class="carousel-caption">
                         <h4 style="text-align:right;">聯絡電話:(02)2502-4242</h4>
                         <p style="padding-top:20px;"></p>
@@ -170,8 +185,8 @@
                
                     <div class="row">
                             <div class="span1" style="background:rgb(235, 158, 21);width:8%;float:left;margin-left:0px;">
-                         
-                            <h4 style="line-height:40px">最新消息</h4>
+                            <img src="images/right/news.png" />
+                            <%--<h4 style="line-height:40px">最新消息</h4>--%>
                       
                             </div>
                             <div  class="span3" style="float:right;width:84%;">
@@ -190,36 +205,36 @@
                    </div>                  
                 </div>
 
-                <div class="service span1" style="text-align:center;">
-                    <div class="icon-awesome">
+                <div class="service span2" style="text-align:center;">
+                    <div class="">
                        <%-- <img src="images/banner/involved.png" />--%>
-                        <img src="images/right/dangerline.jpg" alt="" />
+                        <img src="images/right/hotline.png" alt="" />
                        
                     </div>
                     <div  class="yellowheader"> 
-                        <a href="//www.yahoo.com.tw">自殺熱線</a>
+                        <a href="//www.yahoo.com.tw"></a>
                     </div>
                     <div class="lefttriangle"></div>
                     
                     <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>--%>
                     <%--<a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>--%>
                 </div>
-                <div class="service span1" style="text-align:center;">
-                    <div class="icon-awesome" width="64px">
-                        <img src="images/right/sos.jpg" />
+                <div class="service span2" style="text-align:center;">
+                    <div class="" width="64px">
+                        <img src="images/right/sos.png" />
                       
                     </div>
-                    <div  class="yellowheader"><a href="http://www.sos.org.tw/index.asp">sos救命網</a></div>
+                    <div  class="yellowheader"><a href="http://www.sos.org.tw/index.asp"></a></div>
                     <div class="lefttriangle"></div>
                     <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>--%>
                    <%-- <a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>--%>
                 </div>
 
-                <div class="service span1" style="text-align:center;">
-                    <div class="icon-awesome">
-                       <img src="images/right/elearing.jpg" alt="" />
+                <div class="service span2" style="text-align:center;">
+                    <div class="">
+                       <img src="images/right/e-learning.png" alt="" />
                     </div>
-                    <div  class="yellowheader"><a href="#">數位學習網</a></div>
+                    <div  class="yellowheader"><a href="#"></a></div>
                     <div class="lefttriangle"></div>
                     
                     <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>--%>
@@ -232,8 +247,9 @@
                  <div class="service span4" style="text-align:center;height:160px;">
                      <div class="row">
                             <div class="span1" style="background:rgb(235, 158, 21);width:8%;float:left;margin-left:0px;">
-                         
-                            <h4 style="line-height:33px">電子報</h4>
+                            
+                            <img src="images/right/epaper.png" />
+                            <%--<h4 style="line-height:33px">電子報</h4>--%>
                       
                             </div>
                             <div  class="span3" style="float:right;width:84%;">
@@ -252,34 +268,34 @@
                    
                 </div>
 
-                <div class="service span1" style="text-align:center;">
-                    <div class="icon-awesome">
-                        <img src="images/right/email.jpg" alt="" />
+                <div class="service span2" style="text-align:center;">
+                    <div class="">
+                        <img src="images/right/email.png" alt="" />
                     </div>
-                    <div  class="yellowheader"><a href="//www.lifeline.org.tw/consult.asp">email輔導</a></div>
+                    <div  class="yellowheader"><a href="//www.lifeline.org.tw/consult.asp"></a></div>
                     <div class="lefttriangle"></div>
                     
                     <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>--%>
                     <%--<a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>--%>
                 </div>
 
-                <div class="service span1" style="text-align:center;">
-                    <div class="icon-awesome">
-                        <img src="images/right/Consulting.jpg" alt="" />
+                <div class="service span2" style="text-align:center;">
+                    <div class="">
+                        <img src="images/right/mind.png" alt="" />
                     </div>
-                     <div  class="yellowheader"><a href="#">心理諮商所</a></div>
+                     <div  class="yellowheader"><a href="#"></a></div>
                     <div class="lefttriangle"></div>
                     
                     <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>--%>
                     <%--<a class="btn btn-primary btn-large btn-block" style="color:#FFFFFF" href="http://designmodo.com/flat">Go to</a>--%>
                 </div>
 
-                 <div class="service span1" style="text-align:center;">
+                 <div class="service span2" style="text-align:center;">
                  
-                    <div class="icon-awesome">
-                         <img src="images/right/donate.jpg" alt="" />
+                    <div class="">
+                         <img src="images/right/donate.png" alt="" />
                     </div>
-                    <div  class="yellowheader"><a href="//www.lifeline.org.tw/donate.asp">愛心捐款</a></div>
+                    <div  class="yellowheader"><a href="//www.lifeline.org.tw/donate.asp"></a></div>
                     <div class="lefttriangle"></div>
                   
                     <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>--%>
