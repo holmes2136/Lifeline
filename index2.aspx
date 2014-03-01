@@ -2,7 +2,7 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head runat="server">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -208,7 +208,7 @@
                 <div class="service span2" style="text-align:center;">
                     <div class="">
                        <%-- <img src="images/banner/involved.png" />--%>
-                        <img src="images/right/hotline.png" alt="" />
+                        <img style="max-width:60%;"  src="images/right/hotline.png" alt="" />
                        
                     </div>
                     <div  class="yellowheader"> 
@@ -221,7 +221,7 @@
                 </div>
                 <div class="service span2" style="text-align:center;">
                     <div class="" width="64px">
-                        <img src="images/right/sos.png" />
+                        <img style="max-width:60%;" src="images/right/sos.png" />
                       
                     </div>
                     <div  class="yellowheader"><a href="http://www.sos.org.tw/index.asp"></a></div>
@@ -232,7 +232,7 @@
 
                 <div class="service span2" style="text-align:center;">
                     <div class="">
-                       <img src="images/right/e-learning.png" alt="" />
+                       <img style="max-width:60%;" src="images/right/e-learning.png" alt="" />
                     </div>
                     <div  class="yellowheader"><a href="#"></a></div>
                     <div class="lefttriangle"></div>
@@ -270,7 +270,7 @@
 
                 <div class="service span2" style="text-align:center;">
                     <div class="">
-                        <img src="images/right/email.png" alt="" />
+                        <img style="max-width:60%;" src="images/right/email.png" alt="" />
                     </div>
                     <div  class="yellowheader"><a href="//www.lifeline.org.tw/consult.asp"></a></div>
                     <div class="lefttriangle"></div>
@@ -281,7 +281,7 @@
 
                 <div class="service span2" style="text-align:center;">
                     <div class="">
-                        <img src="images/right/mind.png" alt="" />
+                        <img style="max-width:60%;" src="images/right/mind.png" alt="" />
                     </div>
                      <div  class="yellowheader"><a href="#"></a></div>
                     <div class="lefttriangle"></div>
@@ -293,7 +293,7 @@
                  <div class="service span2" style="text-align:center;">
                  
                     <div class="">
-                         <img src="images/right/donate.png" alt="" />
+                         <img style="max-width:60%;" src="images/right/donate.png" alt="" />
                     </div>
                     <div  class="yellowheader"><a href="//www.lifeline.org.tw/donate.asp"></a></div>
                     <div class="lefttriangle"></div>
@@ -351,9 +351,9 @@
 
     <!-- footerBottomSection -->	
 	<div class="footerBottomSection">
-		<div class="container">
+		<div class="container" style="padding-left:20%;">
             <div class="row">
-                <div class="span1">
+                <div class="span1" style="width:100px;">
                     <p style="line-height: 1.4em;" class="font_8"><span style="line-height: 1.4em;"><span class="color_18">&#8203;&#8203;Call us:</span></span></p>
                     <p style="line-height: 1.4em;" class="font_8"><span style="line-height: 1.4em;"><span class="color_11">(02)2502-4242</span></span></p>
                 </div>
@@ -368,7 +368,7 @@
                    <div class="verticalHr"></div>
                 </div>
                 <div class="span2">
-                    <p style="line-height: 1.4em;" class="font_9"><span class="color_11">© 2014 by 台北市生命線 </span><%--<span style="line-height: 1.4em;"><span class="color_18"><u><a dataquery="#Link1ma2" href="http://wix.com" target="_blank" style="cursor: pointer;">Wix.com</a></u></span></span>--%></p>
+                    <p style="line-height: 1.4em;width:155px;" class="font_9"><span class="color_11">© 2014 by 台北市生命線 </span><%--<span style="line-height: 1.4em;"><span class="color_18"><u><a dataquery="#Link1ma2" href="http://wix.com" target="_blank" style="cursor: pointer;">Wix.com</a></u></span></span>--%></p>
                 </div>
                   <div class="span1" style="width:30px;">
                    <div class="verticalHr"></div>
