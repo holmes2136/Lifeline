@@ -176,15 +176,17 @@ strong { font-weight: bold; }
 }
 
 .what-we-do .service:hover {
-    box-shadow:
+    /*box-shadow:
         0 5px 15px 0 rgba(0,0,0,.05),
         0 1px 25px 0 rgba(0,0,0,.05) inset,
         0 -1px 25px 0 rgba(0,0,0,.05) inset;
     -o-transition: all .5s;
     -moz-transition: all .5s;
     -webkit-transition: all .5s;
-    -ms-transition: all .5s;
+    -ms-transition: all .5s;*/
 }
+
+
 
 .what-we-do .service .icon-awesome {
     margin-top: 15px;
@@ -1163,7 +1165,7 @@ ul.portfolio-img li {
 .font_9{font:normal normal normal 11px/1.4em arial,'ｍｓ ｐゴシック','ms pgothic',돋움,dotum,helvetica,sans-serif;color:#161515;letter-spacing:1pt}
 .verticalHr{border-left:1px dotted #fff;height:50px}
 .icon-awesome img{width:70%;height:101px}
-.yellowheader{font-weight:bold;padding-top:5px;margin-top:10px;font-size:18px;color:Black;height:40px;border-radius:0;position:relative;top:0;bottom:0;left:0;right:0;background-color:#eb9e15;transition:border-color .4s ease 0,background-color .4s ease 0;-webkit-transition:border-color .4s ease 0,background-color .4s ease 0;border:0 solid #161515;cursor:pointer}
+.yellowheader{font-weight:bold;padding-top:5px;margin-top:10px;font-size:18px;color:Black;height:25px;border-radius:0;position:relative;top:0;bottom:0;left:0;right:0;background-color:#eb9e15;transition:border-color .4s ease 0,background-color .4s ease 0;-webkit-transition:border-color .4s ease 0,background-color .4s ease 0;border:0 solid #161515;cursor:pointer}
 .lefttriangle{width:0;height:0;border-top:10px solid #737070;border-right:10px solid transparent;float:right}
 .lefttoptriangle{width:0;height:0;border-top:15px solid #737070;border-left:15px solid transparent;float:left;position:relative;left:30px;text-align:center}
 .ultext{color:#473f39;font-weight:normal;letter-spacing:1pt;word-spacing:3pt;font-size:10px;text-align:left;font-family:times new roman,times,serif;line-height:1;margin:0;padding:0}

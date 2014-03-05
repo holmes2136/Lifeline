@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/**
+ * "Yet Another Multicolumn Layout" - (X)HTML/CSS Framework
+ * (en) Template for designing a screen layout
+ * @creator		YAML Builder v0.3 Preview
+ * @link		http://builder.yaml.de
+ */
+
+@import url(basemod.css);
+@import url(layout.css);
+@import url(content.css);
+

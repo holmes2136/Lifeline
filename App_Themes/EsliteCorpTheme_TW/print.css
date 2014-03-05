@@ -1,0 +1,23 @@
+﻿html
+{
+	background-image:none;
+}
+
+body 
+{
+	background-image:none;
+	visibility:hidden;
+}
+
+#main
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	visibility:visible;
+}
+
+.list_bg
+{
+	height:auto;
+}

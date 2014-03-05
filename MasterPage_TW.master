@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage_TW.master.cs" Inherits="MasterPage_TW" %>
+<%@ Register src="UserControls/ucHeader_TW.ascx" tagname="ucHeader_TW" tagprefix="uc1" %>
+<%@ Register src="UserControls/ucTopMenu_TW.ascx" tagname="ucTopMenu_TW" tagprefix="uc2" %>
+<%@ Register src="UserControls/ucSideMenu_TW.ascx" tagname="ucSideMenu_TW" tagprefix="uc3" %>
+<%@ Register src="UserControls/ucBackOrPrint_TW.ascx" tagname="ucBackOrPrint_TW" tagprefix="uc4" %>
+<%@ Register src="UserControls/ucSiteMapPath_TW.ascx" tagname="ucSiteMapPath_TW" tagprefix="uc5" %>
+<%@ Register src="UserControls/ucMainFooter_TW.ascx" tagname="ucMainFooter_TW" tagprefix="uc6" %>
+<%@ Register src="UserControls/ucFooter_TW.ascx" tagname="ucFooter_TW" tagprefix="uc7" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>生命線</title>
+	<link href="App_Themes/EsliteCorpTheme_TW/style.css" rel="stylesheet" type="text/css" />
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+	
+	
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="page">
+		<div id="header">
+			<!-- #Begin ucQuickLink_TW <%-- "/UserControls/ucHeader_TW.ascx" --%>-->
+            <uc1:ucHeader_TW ID="ucHeader_TW1" runat="server" />
+			<div id="navi">
+				<%--<uc2:ucTopMenu_TW ID="ucTopMenu_TW1" runat="server" />--%>
+			</div>
+			<!-- #End ucQuickLink_TW -->
+		</div>ucSiteMapPath
+<!-- --------------------------------content begin------------------------- -->
+		<div id="content">
+      <!-- --------------------------------sidebar------------------------- -->
+			<div id="sidebar">
+			
+			<%--	<uc3:ucSideMenu_TW ID="ucSideMenu_TW1" runat="server" />--%>
+				
+			</div>
+      <!-- --------------------------------content-box------------------------- -->
+			<div id="content-box">
+				<div id="page_content" class="page_cont" runat="server">
+				
+					<uc4:ucBackOrPrint_TW ID="ucBackOrPrint_TW1" runat="server" />
+				
+					
+					<uc5:ucSiteMapPath_TW ID="ucSiteMapPath_TW1" runat="server" />
+				
+					<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+					</asp:ContentPlaceHolder>
+				</div>
+				
+				<uc6:ucMainFooter_TW ID="ucMainFooter_TW1" runat="server" />
+			
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	
+		<div id="footer">
+		<%--	<uc7:ucFooter_TW ID="ucFooter_TW1" runat="server" />--%>
+		</div>
+		
+	</div>
+	</form>
+
+    <script type="text/javascript" src="assets/custom/js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="assets/custom/js/jquery.treeview.js"></script>
+    <script type="text/javascript">
+         window.onload = function () {
+             for (var ii = 0; ii < document.links.length; ii++)
+                 document.links[ii].onfocus = function () { this.blur() }
+         }
+
+         $(document).ready(function () {
+             $('#sidetree').treeview({
+                 persist: "location",
+                 animated: "fast",
+                 collapsed: true,
+                 unique: true
+             });
+             $('.news_pic img').error(function () {
+
+             });
+         });
+	</script>
+</body>
+</html>
