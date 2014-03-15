@@ -2,8 +2,9 @@
 /* CSS Document */
 
 * {margin: 0;padding: 0;}
-html, body {height: 100%; text-align: center; background:url(../../images/TW/bg.jpg) left top fixed}
+/*html, body {height: 100%; text-align: center; background:url(../../images/TW/bg.jpg) left top fixed}*/
 
+html, body {height: 100%; text-align: center; background:url(../../images/bg.jpg) left top fixed}
 
 #page {width: 1000px;min-height: 100%;margin: 0 auto;text-align: left; }
 * html #wrapper {height: 100%;}
@@ -155,7 +156,10 @@ html, body {height: 100%; text-align: center; background:url(../../images/TW/bg.
 /*-------------------------- sidebar end------------------------------*/
 
 /*-------------------------- content------------------------------*/
-#content{width:1000px; clear:both; background:url(../../images/TW/main_bg.gif) left top no-repeat}
+#content{width:1000px; clear:both; background:url(../../images/lifeline_bg.jpg) }
+
+/*#content{width:1000px; clear:both; background:url(../../images/TW/main_bg.gif)}*/
+
 
 #content-box {
  width: 800px;

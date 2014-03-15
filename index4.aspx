@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index4.aspx.cs" Inherits="index" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -21,8 +21,8 @@
       <!-- Bootstrap core CSS -->
     <%--<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">--%>
     <%--<link href="assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">--%>
-    <link href="assets/bootstrap2/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/bootstrap2/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/bootstrap3/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/bootstrap3/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="assets/custom/css/style.css" rel="stylesheet">
 
     
@@ -43,12 +43,176 @@
     <link href="assets/custom/css/business-plate.css" rel="stylesheet">
     <%--<link rel="shortcut icon" href="assets/custom/ico/favicon.ico">--%>
 
- 
+    
+     <style>
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-bottom: 40px;
+      color: #5a5a5a;
+      font-family:Times New Roman;
+    }
+
+
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+    .navbar-wrapper .navbar {
+
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+    }
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+
+
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 60px;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 500px;
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 200px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+     
+    }
+
+
+    @media (max-width: 767px) {
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+        height: 300px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+     
+
+    }
+    </style>
+
     <style type="text/css">
         
       .carousel-caption p {text-align:right;font-family:Helvetica,Arial,sans-serif;font-size:120%;line-height:1em;letter-spacing:20px; }
         
-      .logo img{width:25%;margin-left:12%;float:left;padding-bottom:5px;}
+      .logo img{width:20%;margin-left:9%;}
       
     </style>
 
@@ -78,23 +242,22 @@
      <!-- topHeaderSection -->	
    <div class="navbar-wrapper">
         <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-        <div class="container" style="margin-top:20px;">
-            <div class="logo">
+        <div class="container">
+          <%--  <div class="logo">
             <a  href="#">
-                <img src="images/201403142.png"  alt="生命線">
+                <img src="images/4-logo.png"  alt="生命線">
             </a>
-            </div>
+            </div>--%>
             <div class="navbar navbar-inverse">
                 
                 <div class="navbar-inner">
-                    <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
                     <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
                     
-                    <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+                    
                     <div class="nav-collapse collapse">
                         <ul class="nav">
                             <li class="active"><a href="index.aspx">Home</a></li>
@@ -127,71 +290,42 @@
 
     <center>
     <!-- bannerSection -->
-    <div class="bannerSection">
-		<div class="slider-inner">
-			<div id="da-slider" class="da-slider">
-				<div class="da-slide">
-					<%--<h2><i>Clean</i> <br> <i>Responsive </i> <br> <i>HTML5 & CSS3</i></h2>
-					<p><i>Professional look</i> <br> <i>Compitable in different device</i> <br> <i>Mordern technology in use</i></p>--%>
-					<div class="da-img"><img  class="myimg" src="images/banner/update3.jpg" alt="" /></div>
-                    <div class="carousel-caption">
-                      <p style="">千里一線  關懷無限</p>
-                        <p style="padding-top:20px;"></p>
-                    </div>  
-        
-        
-       
-       
-       
-				</div>
-				
-				<div class="da-slide">
-				<%--	<h2><i>Clean</i> <br> <i>Responsive </i> <br> <i>HTML5 & CSS3</i></h2>
-					<p><i>Professional look</i> <br> <i>Compitable in different device</i> <br> <i>Mordern technology in use</i></p>--%>
-					<div class="da-img"><img  class="myimg" src="images/banner/29320_400478459633_5101682_n.jpg" alt="" /></div>
-                     <div class="carousel-caption">
-                        <p>千里一線  關懷無限</p>
-                        <p style="padding-top:20px;"></p>
-                    </div>
-				</div>
-				
-				<div class="da-slide">
-				<%--	<h2><i>Clean</i> <br> <i>Responsive </i> <br> <i>HTML5 & CSS3</i></h2>
-					<p><i>Professional look</i> <br> <i>Compitable in different device</i> <br> <i>Mordern technology in use</i></p>--%>
-					<div class="da-img"><img  class="myimg" src="images/banner/update1.jpg" alt="" /></div>
-                     <div class="carousel-caption">
-                        <p>千里一線  關懷無限</p>
-                        <p style="padding-top:20px;"></p>
-                    </div>
-				</div>
-				
-                	<div class="da-slide">
-				<%--	<h2><i>Clean</i> <br> <i>Responsive </i> <br> <i>HTML5 & CSS3</i></h2>
-					<p><i>Professional look</i> <br> <i>Compitable in different device</i> <br> <i>Mordern technology in use</i></p>--%>
-					<div class="da-img"><img  class="myimg" src="images/banner/269940_241547762522713_7132815_n.jpg" alt="" /></div>
-                     <div class="carousel-caption">
-                        <p>千里一線  關懷無限</p>
-                        <p style="padding-top:20px;"></p>
-                    </div>
-				</div>
-
-				<%--<div class="da-slide">
-					<h2><i>Find Our Events</i> <br> <i>Entertainment</i></h2>
-					<p><i>Awesome business logic</i> <br> <i>3 business success history</i></p>
-					<div class="da-img">
-							<%--<iframe src="http://player.vimeo.com/video/41029575" width="100%" height="320" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen class="col-md-offset-4 col-md-6"></iframe>
-					</div>
-				</div>--%>
-                
-
-				<nav class="da-arrows">
-					<span class="da-arrows-prev"></span>
-					<span class="da-arrows-next"></span>		
-				</nav>
-			</div><!--/da-slider-->
-		</div><!--/slider-->
-        
-	</div>
+    <div id="myCarousel" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="item">
+                <img src="images/banner/update3.jpg" alt="">
+                <div class="container">
+                   <%-- <div class="carousel-caption">
+                        <h1>Example headline.</h1>
+                        <p class="lead">生命一線  關懷無限</p>
+                       
+                    </div>--%>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/banner/update2.jpg" alt="">
+                <div class="container">
+                  <%--  <div class="carousel-caption">
+                        <h1>Another example headline.</h1>
+                        <p class="lead">生命一線  關懷無限</p>
+                      
+                    </div>--%>
+                </div>
+            </div>
+            <div class="item active">
+                <img src="images/banner/update1.jpg" alt="">
+                <div class="container">
+                   <%-- <div class="carousel-caption">
+                        <h1>One more for good measure.</h1>
+                        <p class="lead">生命一線  關懷無限</p>
+                      
+                    </div>--%>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+    </div>
     
      </center>
      
@@ -211,14 +345,14 @@
                             <div  class="span3" style="width:75%;">
                   
                     <ul  style="list-style:none;text-align:left;line-height:2em;margin-top:30px;margin-left:0px;">
-                     <li><img  src="images/news/1392556999_106209.jpg" width="16" height="16" alt="" />
+                     <li><img  src="images/news/1392556999_106209.ico" width="16" height="16" alt="" />
                         <a   class="ultext" href="http://www.lifeline.org.tw/activity.asp?ser_no=291">SOS 救救我叢書歡迎索取</a></li>
-                        <li><img  src="images/news/1392556999_106209.jpg" width="16" height="16"  alt="" />
+                        <li><img  src="images/news/1392556999_106209.ico" width="16" height="16"  alt="" />
                         <a   class="ultext" href="http://www.lifeline.org.tw/activity.asp?ser_no=269">如何正確使用自殺防治防線</a></li>
-                         <li><img  src="images/news/1392556999_106209.jpg" width="16" height="16"  alt="" />
-                        <a   class="ultext" href="http://www.lifeline.org.tw/activity.asp?ser_no=269">晤談輔導服務</a></li>
-                         <li><img  src="images/news/1392556999_106209.jpg" width="16" height="16"  alt="" />
-                        <a   class="ultext" href="http://www.lifeline.org.tw/activity.asp?ser_no=269">邀請您！加入守護天使</a></li>
+                         <li><img  src="images/news/1392556999_106209.ico" width="16" height="16"  alt="" />
+                        <a   class="ultext" href="http://www.lifeline.org.tw/activity.asp?ser_no=269">如何正確使用自殺防治防線</a></li>
+                         <li><img  src="images/news/1392556999_106209.ico" width="16" height="16"  alt="" />
+                        <a   class="ultext" href="http://www.lifeline.org.tw/activity.asp?ser_no=269">如何正確使用自殺防治防線</a></li>
                     </ul>
                     </div>
                    </div>                  
@@ -253,7 +387,7 @@
 
                 <div class="service span2" style="text-align:center;">
                     <div class="">
-                       <a href="http://211.79.202.37/pages/default.aspx">
+                       <a href="#">
                         <img class="rightimg3" style="max-width:70%;" src="images/right/e-learning.png" alt="數位學習網" />
                        </a>
                     </div>
@@ -278,10 +412,10 @@
                             <div  class="span3" style="width:75%;">
                                 
                                  <ul  style="list-style:none;text-align:left;margin-top:30px;margin-left:0px;">
-                                    <li><img src="images/news/1392556999_106209.jpg" width="16" height="16" alt="" />
+                                    <li><img src="images/news/1392556999_106209.ico" width="16" height="16" alt="" />
                                         <a class="ultext2" href="http://www.sos.org.tw/admin/epaper_preview1.asp?epaper_no=20140">2014 第1期</a>
                                     </li>
-                                    <li><img src="images/news/1392556999_106209.jpg" width="16" height="16" alt="" />
+                                    <li><img src="images/news/1392556999_106209.ico" width="16" height="16" alt="" />
                                         <a  class="ultext2" href="http://www.sos.org.tw/admin/epaper_preview1.asp?epaper_no=201312">2013 第12期</a>
                                     </li>
                     </ul>
@@ -431,13 +565,13 @@
 <script type="text/javascript" src="assets/custom/js/jquery.flexslider-min.js"></script>  
 <script type="text/javascript" src="assets/custom/js/index.js"></script>
 <script type="text/javascript" src="assets/custom/js/back-to-top.js"></script>
-<script type="text/javascript" src="assets/custom/js/bootbox.min.js"></script>
+
 
 <script type="text/javascript">
 
 
     window.onload = function () {
-         
+        
 //        loadJs("assets/custom/js/modernizr.custom.js");
 //        loadJs("assets/custom/js/jquery.cslider.js");
 //        loadJs("assets/custom/js/back-to-top.js");
@@ -451,16 +585,9 @@
         App.initSliders();
         Index.initParallaxSlider();
         rightColumnEvtRegister();
-        CheckIE();
+
 
     });
-
-    function CheckIE() {
-        if (!navigator.userAgent.match(/msie|trident/i)) {
-            bootbox.alert('請使用 IE 瀏覽器觀看網頁');
-        }
-
-    }
 
     function loadJs(jsurl) {
         var scriptElem = document.createElement("script");
