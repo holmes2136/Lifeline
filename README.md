@@ -1,4 +1,4 @@
-Lifeline
+生命線基金會首頁
 ========
-[Liefline 生命線基金會首頁][1] 
+[Liefline][1] 
 [1]: http://www.lifeline.org.tw/
