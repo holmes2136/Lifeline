@@ -45,7 +45,7 @@
         
       .carousel-caption p {text-align:right;font-family:Helvetica,Arial,sans-serif;font-size:120%;line-height:1em;letter-spacing:20px; }
         
-      .logo img{width:25%;margin-left:12%;float:left;padding-bottom:5px;}
+      .logo img{width:25%;margin-left:10%;float:left;padding-bottom:5px;}
       
     </style>
 
