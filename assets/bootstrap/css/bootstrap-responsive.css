@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * Bootstrap Responsive v2.3.2
  *
  * Copyright 2013 Twitter, Inc
@@ -9,7 +9,7 @@
  */
 
 .clearfix {
-  zoom: 1;
+  *zoom: 1;
 }
 
 .clearfix:before,
@@ -110,8 +110,8 @@
 
 @media (min-width: 1200px) {
   .row {
-    /*odd margin-left: -30px;*/
-    zoom: 1;
+    margin-left: -30px;
+    *zoom: 1;
   }
   .row:before,
   .row:after {
@@ -131,8 +131,7 @@
   .navbar-static-top .container,
   .navbar-fixed-top .container,
   .navbar-fixed-bottom .container {
-    /*odd width: 1170px;*/
-    width: 1000px;
+    width: 1170px;
   }
   .span12 {
     width: 1170px;
@@ -144,8 +143,7 @@
     width: 970px;
   }
   .span9 {
-    /*odd width: 870px;*/
-    width: 940px;
+    width: 870px;
   }
   .span8 {
     width: 770px;
@@ -163,15 +161,14 @@
     width: 370px;
   }
   .span3 {
-    /*odd width: 270px;*/
-    width: 256px;
+    width: 270px;
   }
   .span2 {
-    width: 170px;
+    /*width: 170px;*/
+    width:161px;
   }
   .span1 {
-    /*odd width: 70px;*/
-     width: 150px;
+    width: 70px;
   }
   .offset12 {
     margin-left: 1230px;
@@ -453,7 +450,6 @@
   }
   .thumbnails {
     margin-left: -30px;
-    list-style: none;
   }
   .thumbnails > li {
     margin-left: 30px;
@@ -519,7 +515,8 @@
     width: 166px;
   }
   .span2 {
-    width: 104px;
+    /*width: 104px;*/
+    width:80px;
   }
   .span1 {
     width: 42px;
@@ -848,6 +845,7 @@
     float: none;
     width: 100%;
     margin-left: 0;
+    margin-top:15px;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;

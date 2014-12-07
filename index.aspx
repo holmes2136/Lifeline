@@ -20,8 +20,8 @@
 
 
       <!-- Bootstrap core CSS -->
-    <link href="assets/bootstrap2/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/bootstrap2/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="assets/custom/css/style.css" rel="stylesheet">
 
     
@@ -429,44 +429,17 @@
 <script type="text/javascript" src="assets/custom/js/jquery.flexslider-min.js"></script>  
 <script type="text/javascript" src="assets/custom/js/index.js"></script>
 <script type="text/javascript" src="assets/custom/js/back-to-top.js"></script>
-<script type="text/javascript" src="assets/custom/js/bootbox.min.js"></script>
 
 <script type="text/javascript">
 
-
-    window.onload = function () {
-         
-//        loadJs("assets/custom/js/modernizr.custom.js");
-//        loadJs("assets/custom/js/jquery.cslider.js");
-//        loadJs("assets/custom/js/back-to-top.js");
-//        loadJs("assets/custom/js/jquery.sticky.js");
-//        loadJs("assets/custom/js/app.js");
-//        loadJs("assets/custom/js/index.js");
-    }
-
-    jQuery(document).ready(function () {
+    $(document).ready(function () {
         App.init();
         App.initSliders();
         Index.initParallaxSlider();
         rightColumnEvtRegister();
-        //CheckIE();
-
     });
 
-    function CheckIE() {
-        if (!navigator.userAgent.match(/msie|trident/i)) {
-            bootbox.alert('請使用 IE 瀏覽器觀看網頁');
-        }
-
-    }
-
-    function loadJs(jsurl) {
-        var scriptElem = document.createElement("script");
-        scriptElem.src = jsurl;
-        document.getElementsByTagName("head")[0].appendChild(scriptElem);
-    }
-
-    
+  
 
 </script>
 
