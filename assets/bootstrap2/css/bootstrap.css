@@ -226,7 +226,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #333333;
+  color: #0F0F0F;
   background-color: #ffffff;
 }
 
@@ -6027,7 +6027,7 @@ a.badge:focus {
   padding: 15px;
   /*background: #333333;
   background: rgba(0, 0, 0, 0.75);*/
-  background: rgba(235, 158, 21,0.2);
+  /*background: rgba(235, 158, 21,0.2);*/
 }
 
 .carousel-caption h4,

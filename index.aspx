@@ -20,8 +20,6 @@
 
 
       <!-- Bootstrap core CSS -->
-    <%--<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">--%>
-    <%--<link href="assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">--%>
     <link href="assets/bootstrap2/css/bootstrap.css" rel="stylesheet">
     <link href="assets/bootstrap2/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="assets/custom/css/style.css" rel="stylesheet">
@@ -37,8 +35,6 @@
 	<!-- CSS Implementing Plugins -->
     <link rel="stylesheet" href="assets/custom/css/parallax-slider.css" type="text/css">
 
-   <%-- <link rel="stylesheet" href="assets/custom/css/flexslider.css" type="text/css" media="screen">    --%>	
-   <%--<link rel="stylesheet" href="assets/font-awesome-4.0.3/css/font-awesome.min.css" type="text/css">--%>
     
     <!-- Custom styles for this template -->
     <link href="assets/custom/css/business-plate.css" rel="stylesheet">
@@ -98,8 +94,8 @@
                     <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
                     <div class="nav-collapse collapse">
                         <ul class="nav">
-                            <li class="active"><a href="index.aspx">Home</a></li>
-                             <li class="active"><a href="about.aspx">關於我們</a></li>
+                            <li><a href="index.aspx">Home</a></li>
+                             <li><a href="about.aspx">關於我們</a></li>
                             <%-- <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">關於我們 <b class="caret"></b></a>
                               <ul class="dropdown-menu">
@@ -135,9 +131,9 @@
 				<div class="da-slide">
 					<%--<h2><i>Clean</i> <br> <i>Responsive </i> <br> <i>HTML5 & CSS3</i></h2>
 					<p><i>Professional look</i> <br> <i>Compitable in different device</i> <br> <i>Mordern technology in use</i></p>--%>
-					<div class="da-img"><img  class="myimg" src="images/banner/update3.jpg" alt="" /></div>
+					<div class="da-img"><img  class="myimg" src="images/banner/banner1.jpg" alt="" /></div>
                     <div class="carousel-caption">
-                      <p style="">千里一線  關懷無限</p>
+                     <%-- <p style="">千里一線  關懷無限</p>--%>
                         <p style="padding-top:20px;"></p>
                     </div>  
         
@@ -150,9 +146,9 @@
 				<div class="da-slide">
 				<%--	<h2><i>Clean</i> <br> <i>Responsive </i> <br> <i>HTML5 & CSS3</i></h2>
 					<p><i>Professional look</i> <br> <i>Compitable in different device</i> <br> <i>Mordern technology in use</i></p>--%>
-					<div class="da-img"><img  class="myimg" src="images/banner/29320_400478459633_5101682_n.jpg" alt="" /></div>
+					<div class="da-img"><img  class="myimg" src="images/banner/banner2.jpg" alt="" /></div>
                      <div class="carousel-caption">
-                        <p>千里一線  關懷無限</p>
+                        <%--<p>千里一線  關懷無限</p>--%>
                         <p style="padding-top:20px;"></p>
                     </div>
 				</div>
@@ -160,9 +156,9 @@
 				<div class="da-slide">
 				<%--	<h2><i>Clean</i> <br> <i>Responsive </i> <br> <i>HTML5 & CSS3</i></h2>
 					<p><i>Professional look</i> <br> <i>Compitable in different device</i> <br> <i>Mordern technology in use</i></p>--%>
-					<div class="da-img"><img  class="myimg" src="images/banner/update1.jpg" alt="" /></div>
+					<div class="da-img"><img  class="myimg" src="images/banner/banner1.jpg" alt="" /></div>
                      <div class="carousel-caption">
-                        <p>千里一線  關懷無限</p>
+                        <%--<p>千里一線  關懷無限</p>--%>
                         <p style="padding-top:20px;"></p>
                     </div>
 				</div>
@@ -170,9 +166,9 @@
                 	<div class="da-slide">
 				<%--	<h2><i>Clean</i> <br> <i>Responsive </i> <br> <i>HTML5 & CSS3</i></h2>
 					<p><i>Professional look</i> <br> <i>Compitable in different device</i> <br> <i>Mordern technology in use</i></p>--%>
-					<div class="da-img"><img  class="myimg" src="images/banner/269940_241547762522713_7132815_n.jpg" alt="" /></div>
+					<div class="da-img"><img  class="myimg" src="images/banner/banner2.jpg" alt="" /></div>
                      <div class="carousel-caption">
-                        <p>千里一線  關懷無限</p>
+                        <%--<p>千里一線  關懷無限</p>--%>
                         <p style="padding-top:20px;"></p>
                     </div>
 				</div>
