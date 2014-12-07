@@ -4,7 +4,7 @@
 * {margin: 0;padding: 0;}
 /*html, body {height: 100%; text-align: center; background:url(../../images/TW/bg.jpg) left top fixed}*/
 
-html, body {height: 100%; text-align: center; background:url(../../images/bg.jpg) left top fixed}
+html, body {height: 100%; text-align: center; background:url(../../images/2.jpg) left top fixed}
 
 #page {width: 1000px;min-height: 100%;margin: 0 auto;text-align: left; }
 * html #wrapper {height: 100%;}
@@ -55,6 +55,7 @@ html, body {height: 100%; text-align: center; background:url(../../images/bg.jpg
 #navi ul{ width:790px; height:65px; float:left}
 #navi li{float:left;display:block;}
 #navi li a ,#navi li a:hover{ display:block; float:left; color:#fff; text-align:center; text-indent:-9999px; height:65px; }
+/*
 #navi .tab_01 a ,#navi .tab_01_on ,#navi .tab_01 a:hover{ width:85px; height:65px; background: url(../../images/TW/navi.png) -219px top no-repeat;}
 #navi .tab_02 a ,#navi .tab_02_on ,#navi .tab_02 a:hover{ width:92px; height:65px; background: url(../../images/TW/navi.png) -303px top no-repeat;}
 #navi .tab_03 a ,#navi .tab_03_on ,#navi .tab_03 a:hover{ width:80px; height:65px; background: url(../../images/TW/navi.png) -395px top no-repeat;}
@@ -64,7 +65,7 @@ html, body {height: 100%; text-align: center; background:url(../../images/bg.jpg
 #navi .tab_07 a ,#navi .tab_07_on ,#navi .tab_07 a:hover{ width:77px; height:65px; background: url(../../images/TW/navi.png) -776px top no-repeat;}
 #navi .tab_08 a ,#navi .tab_08_on ,#navi .tab_08 a:hover{ width:75px; height:65px; background: url(../../images/TW/navi.png) -853px top no-repeat;}
 #navi .tab_09 a ,#navi .tab_09_on ,#navi .tab_09 a:hover{ width:72px; height:65px; background: url(../../images/TW/navi.png) right top no-repeat;}
-
+*/
 
 /*-------------------------- index ------------------------------*/
 #ind_logo{
@@ -156,7 +157,7 @@ html, body {height: 100%; text-align: center; background:url(../../images/bg.jpg
 /*-------------------------- sidebar end------------------------------*/
 
 /*-------------------------- content------------------------------*/
-#content{width:1000px; clear:both; background:url(../../images/lifeline_bg.jpg) }
+#content{width:1000px; clear:both; background:url(../../images/bg3.gif) }
 
 /*#content{width:1000px; clear:both; background:url(../../images/TW/main_bg.gif)}*/
 
@@ -296,11 +297,14 @@ html, body {height: 100%; text-align: center; background:url(../../images/bg.jpg
  width:780px;
  background:url(../../images/TW/footer.gif) left top no-repeat;
  float:left;
- padding:50px 0 10px 220px;
+ /*padding:50px 0 10px 220px;*/
+ padding:50px 0 10px 320px;
+ text-align:center;
 }
 
 #footer p{color:#fff;}
-#footer ul {float:left;width:780px;}
+footer ul {float:left;width:780px;}
+/*#footer ul {float:left;width:780px;}*/
 #footer li {color:#c8c8c8;display: inline;}
 
 #footer li a ,#footer li a:hover{

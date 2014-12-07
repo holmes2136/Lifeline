@@ -8,31 +8,87 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>生命線</title>
 	<link href="App_Themes/EsliteCorpTheme_TW/style.css" rel="stylesheet" type="text/css" />
-
+    <link href="assets/bootstrap3/css/bootstrap.table.css" rel="stylesheet" type="text/css" />
+    
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
 
-	
+	<style type="text/css">
+        
+        .logo{width:80px;height:65px;margin-left: 15px;}
+	    
+	     body {font-family: Tahoma, Arial, Helvetica, sans-serif, "新細明體";}
+	    
+	     #mainMenu .menu {
+	        position: absolute;
+	        width: 600px; height: 30px;
+	        right: 240px; top: 20px;
+	        color: #FFFFFF; text-align: right; line-height: 30px;
+        }
+
+        #mainMenu .menu  a {
+	        color: #FFFFFF; text-decoration: none;
+        }
+
+        #mainMenu .menu  a:hover {
+	        text-decoration: underline;
+        }
+
+        #mainMenu {
+	        _position: absolute;
+	        width: 100%; height: 50px;
+	        left: 0; bottom: 0;
+	        border-top: 1px solid #b0aba6;
+        }
+
+	</style>
 	
 </head>
 <body>
     <form id="form1" runat="server">
     <div id="page">
 		<div id="header">
+             <div id="mainMenu">
+                <div class="menu">
+                    <a href="index.aspx">Home</a> ｜
+                    <a href="about.aspx">關於我們</a> ｜
+                    <a href="http://www.lifeline.org.tw/case.asp">個案統計分析</a> ｜
+                    <a href="http://www.sos.org.tw/index.asp">SOS救命網</a> ｜
+                    <a href="#">數位學習網</a> ｜
+                    <a href="http://www.lifeline.org.tw/consult.asp">EMAIL輔導</a> ｜
+                    <a href="http://www.lifeline.org.tw/donate.asp">愛心捐款</a>
+                </div>
+
 			<!-- #Begin ucQuickLink_TW <%-- "/UserControls/ucHeader_TW.ascx" --%>-->
            <%-- <uc1:ucHeader_TW ID="ucHeader_TW1" runat="server" />--%>
-			<div id="navi">
+			<%--<div id="navi">--%>
 				<%--<uc2:ucTopMenu_TW ID="ucTopMenu_TW1" runat="server" />--%>
-			</div>
+               <%-- <ul>
+					<li class="tab_01"><a href="#">Home</a></li>
+					<li class="tab_02"><a href="#">關於我們</a></li>
+					<li class="tab_03"><a href="#">個案統計分析</a></li>
+					<li class="tab_04"><a href="#">SOS救命網</a></li>
+					<li class="tab_05"><a href="#">數位學習網</a></li>
+					<li class="tab_06"><a href="#">EMAIL輔導</a></li>
+					<li class="tab_07"><a href="#">愛心捐款</a></li>
+				</ul>
+			</div>--%>
 			<!-- #End ucQuickLink_TW -->
 		</div>
 <!-- --------------------------------content begin------------------------- -->
 		<div id="content" style="margin-top:20px;">
       <!-- --------------------------------sidebar------------------------- -->
 			<div id="sidebar">
-			
-			<%--	<uc3:ucSideMenu_TW ID="ucSideMenu_TW1" runat="server" />--%>
-				
+			    
+				<%--<uc3:ucSideMenu_TW ID="ucSideMenu_TW1" runat="server" />--%>
+				<div class="pic"><img src="images/logo.gif" class="logo" alt="關於誠品" id="imgIcon" runat="server" /></div>
+				<div class="sidemenu">
+					<ul id="sidetree">
+                    <li><a href="about.aspx" class="selected"> 自殺熱線簡介</a></li>
+                    <li><a href="consult.aspx" class="selected">心理諮商所簡介</a></li>
+					</ul>
+				</div>
+                <!-- side control end -->
 			</div>
       <!-- --------------------------------content-box------------------------- -->
 			<div id="content-box">
@@ -42,15 +98,7 @@
 				
 					
 
-					<%--<uc5:ucSiteMapPath_TW ID="ucSiteMapPath_TW1" runat="server" />--%>
-				    <div class="dir">
-						<ul>
-							<li><asp:HyperLink ID="lnkToHome" NavigateUrl="~/index.aspx" runat="server">首頁</asp:HyperLink></li>
-							<asp:Literal ID="litList" runat="server" />
-						</ul>
-						<div class="clear"></div>
-					</div>
-                    <!-- end -->
+				
 
 					<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
 					</asp:ContentPlaceHolder>
@@ -64,6 +112,11 @@
 	
 		<div id="footer">
 		<%--	<uc7:ucFooter_TW ID="ucFooter_TW1" runat="server" />--%>
+           
+            <ul style="float:left;">
+				<li>輔導專線：02-25059595</li><br />
+				<li>地址：台北市松江路65號11樓  電話：25024242  傳真：25024343</li>
+			</ul>
 		</div>
 		
 	</div>
@@ -71,6 +124,7 @@
 
     <script type="text/javascript" src="assets/custom/js/jquery-1.8.2.min.js"></script>
     <script type="text/javascript" src="assets/custom/js/jquery.treeview.js"></script>
+    <script type="text/javascript" src="assets/bootstrap3/js/bootstrap.min.js"></script>
     <script type="text/javascript">
          window.onload = function () {
              for (var ii = 0; ii < document.links.length; ii++)

@@ -18,6 +18,7 @@
 
     <title>生命線</title>
 
+
       <!-- Bootstrap core CSS -->
     <%--<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">--%>
     <%--<link href="assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">--%>
@@ -98,15 +99,16 @@
                     <div class="nav-collapse collapse">
                         <ul class="nav">
                             <li class="active"><a href="index.aspx">Home</a></li>
-                             <li class="dropdown">
-                                <a href="http://www.lifeline.org.tw/about.asp" class="dropdown-toggle" data-toggle="dropdown">關於我們 <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
+                             <li class="active"><a href="about.aspx">關於我們</a></li>
+                            <%-- <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">關於我們 <b class="caret"></b></a>
+                              <ul class="dropdown-menu">
                                     <li><a href="http://www.lifeline.org.tw/family.asp">我們的家族</a></li>
-                                 <%--   <li class="divider"></li>
+                                    <li class="divider"></li>
                                     <li class="nav-header">Nav header</li>
                                     <li><a href="#">Separated link</a></li>
-                                    <li><a href="#">One more separated link</a></li>--%>
-                                </ul>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>--%>
                             </li>
                             <li><a href="http://www.lifeline.org.tw/case.asp">個案統計分析</a></li>
                             <li><a href="http://www.lifeline.org.tw/sitemap.asp">網站導覽</a></li>
@@ -226,7 +228,7 @@
 
                 <div class="service span2" style="text-align:center">
                     <div class="">
-                        <a href="//www.yahoo.com.tw">
+                        <a href="9595.aspx">
                             <img class="rightimg1" style="max-width:70%;"  src="images/right/hotline.png" alt="自殺熱線" />
                         </a>
                     </div>
@@ -306,7 +308,7 @@
 
                 <div class="service span2" style="text-align:center">
                     <div class="">
-                        <a href="#">
+                        <a href="consult.aspx">
                             <img class="rightimg5" style="max-width:70%;" src="images/right/mind.png" alt="心理諮商所" />
                         </a>
                     </div>
@@ -451,7 +453,7 @@
         App.initSliders();
         Index.initParallaxSlider();
         rightColumnEvtRegister();
-        CheckIE();
+        //CheckIE();
 
     });
 
